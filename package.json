@@ -1,0 +1,12 @@
+{
+  "name": "Todo-Saga",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "jade": "~1.8.1",
+    "grunt-contrib-jade": "~0.13.0",
+    "grunt-contrib-stylus": "~0.20.0",
+    "grunt-contrib-copy": "~0.7.0"
+  }
+}

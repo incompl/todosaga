@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+  head
+    title Todo Saga
+    link(rel='stylesheet', href='screen.css')
+  body
+
+    header
+      h1 Todo Saga
+      h2 Wade Through Life&#0153;
+
+    section.content
+      div.todo
+        input(type='checkbox')
+        span Buy milk
+        span.coins 300&curren;
+      div.todo
+        input(type='checkbox')
+        span Vacuum luxary condo
+        span.coins 1,000&curren;
+      div.todo.invalid
+        input(type='checkbox')
+        span Take a day off
+        span.coins 2,555&curren;
+
+    section.add
+      button
+        span + New Todo
+        span.coins 500&curren;
+
+    footer
+      span.coins 1,235&curren;
+      button Get Gadzooks
